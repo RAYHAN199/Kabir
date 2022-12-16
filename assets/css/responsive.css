@@ -1,0 +1,371 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media all and (max-width:1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .box-control {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single-box1,
+    .single-box2,
+    .single-box3 {
+        margin-bottom: 3rem;
+    }
+
+    .image-section {
+        -ms-grid-columns: 1fr 2rem 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .text-1,
+    .text-2,
+    .text-3 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .text-3 {
+        padding: 40px 40px;
+        -ms-grid-column-span: 9;
+        grid-column: span 9;
+    }
+
+    .special-part h2 {
+        font-size: 3rem;
+    }
+
+    .discount-area {
+        padding: 5rem 0;
+    }
+
+}
+
+@media all and (max-width:991px) {
+    .header-part1 .menu ul {
+        display: none;
+    }
+
+    .banner-txt {
+        padding: 150px 0;
+    }
+
+    .equal3 a {
+        display: block;
+    }
+
+    .box-control {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 50px;
+    }
+
+    .box {
+        width: 330px;
+    }
+
+    .blog-part {
+        grid-gap: 3rem;
+    }
+
+    .special-part {
+        padding: 50px 60px;
+        background-color: var(--color3);
+    }
+
+    .special-part h2 {
+        font-size: 2rem;
+    }
+
+    .footer-area {
+        padding: 5rem 0;
+    }
+
+    .footer-part {
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+    }
+}
+
+@media all and (max-width:767px) {
+    .image-section {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem;
+    }
+
+    .box {
+        width: 450px;
+        margin: auto;
+    }
+
+    .blog-part .picture-1 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .img-text-part {
+        padding: 40px 50px;
+    }
+
+    .pic-part {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+        -ms-grid-row-span: 4;
+        grid-row: span 4;
+    }
+
+    .txt-part {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .special-part {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .special-part {
+        padding: 40px 30px;
+    }
+
+    .special-part h2 {
+        font-size: 1.8rem;
+    }
+
+    .special-part .btn1 {
+        font-size: 1.5rem;
+        padding: 1.3rem 5rem;
+    }
+
+    .footer-part {
+        display: block;
+        text-align: center;
+    }
+
+    .four-4 ul {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .first-1,
+    .two-2,
+    .three-3,
+    .four-4 {
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media all and (max-width:574px) {
+
+    .boxes-area {
+        padding: 0;
+    }
+
+    .box {
+        width: 380px;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    .head-txt h2 {
+        font-size: 3.5rem;
+    }
+
+    .img-text-part {
+        padding: 0px 30px;
+    }
+
+    .picture-2 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .picture-3 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .picture-4 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .picture-5 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .picture-6 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .text-1,
+    .text-2,
+    .text-3 {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+
+    .text-1 p,
+    .text-2 p,
+    .text-3 p {
+        color: var(--color2);
+        line-height: 3rem;
+    }
+
+    .special-part {
+        display: block;
+    }
+
+
+    .special-part h2 {
+        margin-bottom: 4rem;
+
+    }
+
+    .banner-txt h1 {
+        font-size: 6.7rem;
+    }
+
+}
+
+@media all and (max-width:449px) {
+    .header-part1 {
+        padding: 3rem 1.5rem;
+    }
+
+    .banner-txt h1 {
+        font-size: 4.7rem;
+    }
+
+    .banner-txt {
+        padding: 120px 0;
+    }
+
+    .box-control {
+        padding: 0 20px;
+    }
+
+    .head-txt h2 {
+        font-size: 3rem;
+    }
+
+    .head-txt p {
+        font-size: 1.4rem;
+    }
+
+    .box {
+        width: 290px;
+        margin: auto;
+    }
+
+    .fusion-txt h2 {
+        font-size: 3.2rem;
+    }
+
+    .fusion-txt p {
+        font-size: 1.3rem;
+    }
+
+    .head-txt h2 {
+        font-size: 2.8rem;
+    }
+
+    .single-box1 p,
+    .single-box2 p,
+    .single-box3 p {
+        color: var(--color5);
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+    }
+
+    .single-box1 h3,
+    .single-box2 h3,
+    .single-box3 h3 {
+        font-size: 1.5rem;
+    }
+
+    .blog-part {
+        grid-gap: 2rem;
+    }
+
+    .img-text-part {
+        padding: 0px 30px;
+    }
+
+    .blog-part .picture-1 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .picture-2 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .picture-3 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .picture-4 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .picture-5 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .picture-6 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+    }
+
+    .text-1,
+    .text-2,
+    .text-3 {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+        padding: 40px 40px;
+    }
+
+    .text-1 p,
+    .text-2 p,
+    .text-3 p {
+        color: var(--color2);
+        line-height: 3rem;
+    }
+
+    .button-blog {
+        -ms-grid-column-span: 12;
+        grid-column: span 12;
+        margin-top: 7rem;
+    }
+
+    .img-text-part {
+        grid-gap: 2rem;
+    }
+    .foot-txt p {
+        font-size: 1.3rem;
+    }
+}
